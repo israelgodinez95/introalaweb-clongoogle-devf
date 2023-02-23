@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');  
+
+* {
+    /* box-sizing: border-box;
+    outline: 2px solid limegreen !important; */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content:space-between;
+    font-family: Roboto;
+}
+
+header{
+    display: flex;
+    height: 50px;
+    justify-content: right;
+}
+
+section {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+}
+
+#links{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#image-google {
+    display: flex;
+    justify-content: center;
+}
+
+#search-section{
+    display:flex;
+    height:fit-content;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    background-color:gainsboro;
+    justify-content: center;
+    height: 100%;
+}
+
+#footer-block2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10px 0px; 
+}
+
+#block-izq{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+   
+}
+
+#block-der {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+a{
+    margin-left: 10px;
+}
